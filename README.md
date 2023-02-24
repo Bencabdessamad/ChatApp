@@ -1,0 +1,2 @@
+# ChatApp
+Dans cet App, le client se connecte au serveur en utilisant le socket sur le port 1234. Le client lit le nom d'utilisateur à partir de l'entrée utilisateur et envoie des messages au serveur en concaténant le nom d'utilisateur et le message. Le serveur diffuse ensuite le message à tous les autres clients connectés. Le client a également un thread séparé qui lit les messages du serveur et les affiche sur la console. Le serveur, quant à lui, écoute continuellement les nouvelles connexions de clients et diffuse les messages à tous les clients connectés.
